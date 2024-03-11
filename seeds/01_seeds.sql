@@ -2,7 +2,7 @@ INSERT INTO users (name, email, password)
 VALUES 
       ('Zendaya', 'zendaya@dunecast.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
        ('Timothee Chalamet', 'timothee@dunecast.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
-       ('Austin Butler', 'austin@dunecast.comm', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
+       ('Austin Butler', 'austin@dunecast.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, street, city, province, post_code, country, parking_spaces, number_of_bathrooms, number_of_bedrooms)
 VALUES 
@@ -16,6 +16,6 @@ VALUES ('2018-09-11', '2018-09-26', 2, 3),
        ('2023-10-01', '2023-10-14', 1, 3);
 
 INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
-VALUES (3, 2, 1, 3, 'messages'),
-       (2, 2, 2, 4, 'messages'),
-       (3, 1, 3, 4, 'messages');
+VALUES (3, 2, 1, 3, 'message1'),
+       (2, 2, 2, 4, 'message2'),
+       (3, 1, 3, 4, 'message3');
